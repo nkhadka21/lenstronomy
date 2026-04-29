@@ -660,10 +660,7 @@ class TestParam(object):
             "source_light_model_list": ["GAUSSIAN"],
             "lens_light_model_list": ["SERSIC"],
             "point_source_model_list": ["LENSED_POSITION"],
-            "multi_plane": True,
-            "lens_redshift_list": [0.5],
-            "z_source": 2,
-            "distance_ratio_sampling": None,
+            "multi_plane": False,
         }
         kwargs_param = {
             "num_point_source_list": [2],
